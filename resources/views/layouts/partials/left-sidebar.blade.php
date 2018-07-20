@@ -3,7 +3,7 @@
     <!-- User Info -->
     <div class="user-info">
         <div class="image">
-            <img src="bsb/images/user.png" width="48" height="48" alt="User" />
+            <img src="{{ URL::asset('bsb/images/user.png')}}" width="48" height="48" alt="User" />
         </div>
         <div class="info-container">
             <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
@@ -28,7 +28,7 @@
         <ul class="list">
             <li class="header">MAIN NAVIGATION</li>
             <li class="active">
-                <a href="index.html">
+                <a href="{{ route('home') }}">
                     <i class="material-icons">home</i>
                     <span>Home</span>
                 </a>
@@ -176,22 +176,22 @@
                 </a>
                 <ul class="ml-menu">
                     <li>
-                        <a href="pages/forms/basic-form-elements.html">Basic Form Elements</a>
+                        <a href="{{ route('forms.basic-form-elements') }}">Basic Form Elements</a>
                     </li>
                     <li>
-                        <a href="pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
+                        <a href="{{ route('forms.advanced-form-elements') }}">Advanced Form Elements</a>
                     </li>
                     <li>
-                        <a href="pages/forms/form-examples.html">Form Examples</a>
+                        <a href="{{ route('forms.form-examples') }}">Form Examples</a>
                     </li>
                     <li>
-                        <a href="pages/forms/form-validation.html">Form Validation</a>
+                        <a href="{{ route('forms.form-validation') }}">Form Validation</a>
                     </li>
                     <li>
-                        <a href="pages/forms/form-wizard.html">Form Wizard</a>
+                        <a href="{{ route('forms.form-wizard') }}">Form Wizard</a>
                     </li>
                     <li>
-                        <a href="pages/forms/editors.html">Editors</a>
+                        <a href="{{ route('forms.editors') }}">Editors</a>
                     </li>
                 </ul>
             </li>

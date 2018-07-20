@@ -1,9 +1,10 @@
-@extends('layouts.index')
+@extends('layouts.main')
 
 @section('title', 'Dashboard')
 
 @section('extra-css')
-
+    <!-- Morris Chart Css-->
+    <link href="{{ URL::asset('bsb/plugins/morrisjs/morris.css')}}" rel="stylesheet" />
 @stop
 
 @section('content')

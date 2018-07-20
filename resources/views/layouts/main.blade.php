@@ -25,8 +25,6 @@
         <!-- Animation Css -->
         <link href="{{ URL::asset('bsb/plugins/animate-css/animate.css')}}" rel="stylesheet" />
 
-        <!-- Morris Chart Css-->
-        <link href="{{ URL::asset('bsb/plugins/morrisjs/morris.css')}}" rel="stylesheet" />
 
         <!-- Custom Css -->
         <link href="{{ URL::asset('bsb/css/style.css')}}" rel="stylesheet">
