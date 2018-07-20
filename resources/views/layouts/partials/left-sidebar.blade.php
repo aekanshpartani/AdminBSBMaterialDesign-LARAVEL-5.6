@@ -34,13 +34,13 @@
                 </a>
             </li>
             <li>
-                <a href="pages/typography.html">
+                <a href="{{ route('typography') }}">
                     <i class="material-icons">text_fields</i>
                     <span>Typography</span>
                 </a>
             </li>
             <li>
-                <a href="pages/helper-classes.html">
+                <a href="{{ route('helper-classes') }}">
                     <i class="material-icons">layers</i>
                     <span>Helper Classes</span>
                 </a>
@@ -202,13 +202,13 @@
                 </a>
                 <ul class="ml-menu">
                     <li>
-                        <a href="pages/tables/normal-tables.html">Normal Tables</a>
+                        <a href="{{ route('tables.normal-tables') }}">Normal Tables</a>
                     </li>
                     <li>
-                        <a href="pages/tables/jquery-datatable.html">Jquery Datatables</a>
+                        <a href="{{ route('tables.jquery-datatables') }}">Jquery Datatables</a>
                     </li>
                     <li>
-                        <a href="pages/tables/editable-table.html">Editable Tables</a>
+                        <a href="{{ route('tables.editable-tables') }}">Editable Tables</a>
                     </li>
                 </ul>
             </li>
