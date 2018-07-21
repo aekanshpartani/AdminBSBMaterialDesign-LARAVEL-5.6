@@ -219,10 +219,10 @@
                 </a>
                 <ul class="ml-menu">
                     <li>
-                        <a href="pages/medias/image-gallery.html">Image Gallery</a>
+                        <a href="{{ route('medias.image-gallery') }}">Image Gallery</a>
                     </li>
                     <li>
-                        <a href="pages/medias/carousel.html">Carousel</a>
+                        <a href="{{ route('medias.carousel') }}">Carousel</a>
                     </li>
                 </ul>
             </li>

@@ -70,3 +70,14 @@ Route::get('/tables/editable-tables', function () {
     return view('pages.tables.editable-tables');
 
 })->name('tables.editable-tables');
+
+
+Route::get('/medias/image-gallery', function () {
+    return view('pages.medias.image-gallery');
+
+})->name('medias.image-gallery');
+
+Route::get('/medias/carousel', function () {
+    return view('pages.medias.carousel');
+
+})->name('medias.carousel');
