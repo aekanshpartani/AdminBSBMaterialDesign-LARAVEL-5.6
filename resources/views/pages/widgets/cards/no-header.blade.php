@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', '')
+@section('title', 'Widgets - No Header Card')
 
 @section('extra-css')
 

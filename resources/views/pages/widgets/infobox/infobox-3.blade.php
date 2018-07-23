@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', '')
+@section('title', 'Widgets - Infobox 3')
 
 @section('extra-css')
 

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', '')
+@section('title', 'Widgets - Colored Card')
 
 @section('extra-css')
 
