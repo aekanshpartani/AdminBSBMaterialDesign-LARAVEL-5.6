@@ -81,3 +81,43 @@ Route::get('/medias/carousel', function () {
     return view('pages.medias.carousel');
 
 })->name('medias.carousel');
+
+Route::get('/widgets/cards/basic', function () {
+    return view('pages.widgets.cards.basic');
+
+})->name('widgets.cards.basic');
+
+Route::get('/widgets/cards/colored', function () {
+    return view('pages.widgets.cards.colored');
+
+})->name('widgets.cards.colored');
+
+Route::get('/widgets/cards/no-header', function () {
+    return view('pages.widgets.cards.no-header');
+
+})->name('widgets.cards.no-header');
+
+Route::get('/widgets/infobox/infobox-1', function () {
+    return view('pages.widgets.infobox.infobox-1');
+
+})->name('widgets.infobox.infobox-1');
+
+Route::get('/widgets/infobox/infobox-2', function () {
+    return view('pages.widgets.infobox.infobox-2');
+
+})->name('widgets.infobox.infobox-2');
+
+Route::get('/widgets/infobox/infobox-3', function () {
+    return view('pages.widgets.infobox.infobox-3');
+
+})->name('widgets.infobox.infobox-3');
+
+Route::get('/widgets/infobox/infobox-4', function () {
+    return view('pages.widgets.infobox.infobox-4');
+
+})->name('widgets.infobox.infobox-4');
+
+Route::get('/widgets/infobox/infobox-5', function () {
+    return view('pages.widgets.infobox.infobox-5');
+
+})->name('widgets.infobox.infobox-5');

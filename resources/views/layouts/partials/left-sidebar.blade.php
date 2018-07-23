@@ -57,13 +57,13 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="pages/widgets/cards/basic.html">Basic</a>
+                                <a href="{{ route('widgets.cards.basic') }}">Basic</a>
                             </li>
                             <li>
-                                <a href="pages/widgets/cards/colored.html">Colored</a>
+                                <a href="{{ route('widgets.cards.colored') }}">Colored</a>
                             </li>
                             <li>
-                                <a href="pages/widgets/cards/no-header.html">No Header</a>
+                                <a href="{{ route('widgets.cards.no-header') }}">No Header</a>
                             </li>
                         </ul>
                     </li>
@@ -73,19 +73,19 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                <a href="{{ route('widgets.infobox.infobox-1') }}">Infobox-1</a>
                             </li>
                             <li>
-                                <a href="pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                <a href="{{ route('widgets.infobox.infobox-2') }}">Infobox-2</a>
                             </li>
                             <li>
-                                <a href="pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                <a href="{{ route('widgets.infobox.infobox-3') }}">Infobox-3</a>
                             </li>
                             <li>
-                                <a href="pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                <a href="{{ route('widgets.infobox.infobox-4') }}">Infobox-4</a>
                             </li>
                             <li>
-                                <a href="pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                <a href="{{ route('widgets.infobox.infobox-5') }}">Infobox-5</a>
                             </li>
                         </ul>
                     </li>
