@@ -121,3 +121,28 @@ Route::get('/widgets/infobox/infobox-5', function () {
     return view('pages.widgets.infobox.infobox-5');
 
 })->name('widgets.infobox.infobox-5');
+
+Route::get('/charts/chartjs', function () {
+    return view('pages.charts.chartjs');
+
+})->name('charts.chartjs');
+
+Route::get('/charts/flot', function () {
+    return view('pages.charts.flot');
+
+})->name('charts.flot');
+
+Route::get('/charts/jquery-knob', function () {
+    return view('pages.charts.jquery-knob');
+
+})->name('charts.jquery-knob');
+
+Route::get('/charts/morris', function () {
+    return view('pages.charts.morris');
+
+})->name('charts.morris');
+
+Route::get('/charts/sparkline', function () {
+    return view('pages.charts.sparkline');
+
+})->name('charts.sparkline');

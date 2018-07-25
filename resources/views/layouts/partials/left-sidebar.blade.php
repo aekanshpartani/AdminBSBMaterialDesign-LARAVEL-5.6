@@ -233,19 +233,19 @@
                 </a>
                 <ul class="ml-menu">
                     <li>
-                        <a href="pages/charts/morris.html">Morris</a>
+                        <a href="{{ route('charts.morris') }}">Morris</a>
                     </li>
                     <li>
-                        <a href="pages/charts/flot.html">Flot</a>
+                        <a href="{{ route('charts.flot') }}">Flot</a>
                     </li>
                     <li>
-                        <a href="pages/charts/chartjs.html">ChartJS</a>
+                        <a href="{{ route('charts.chartjs') }}">ChartJS</a>
                     </li>
                     <li>
-                        <a href="pages/charts/sparkline.html">Sparkline</a>
+                        <a href="{{ route('charts.sparkline') }}">Sparkline</a>
                     </li>
                     <li>
-                        <a href="pages/charts/jquery-knob.html">Jquery Knob</a>
+                        <a href="{{ route('charts.jquery-knob') }}">Jquery Knob</a>
                     </li>
                 </ul>
             </li>
