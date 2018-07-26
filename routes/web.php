@@ -146,3 +146,33 @@ Route::get('/charts/sparkline', function () {
     return view('pages.charts.sparkline');
 
 })->name('charts.sparkline');
+
+Route::get('/examples/404', function () {
+    return view('pages.examples.404');
+
+})->name('examples.404');
+
+Route::get('/examples/500', function () {
+    return view('pages.examples.500');
+
+})->name('examples.500');
+
+Route::get('/examples/blank', function () {
+    return view('pages.examples.blank');
+
+})->name('examples.blank');
+
+Route::get('/examples/forgot-password', function () {
+    return view('pages.examples.forgot-password');
+
+})->name('examples.forgot-password');
+
+Route::get('/examples/sign-in', function () {
+    return view('pages.examples.sign-in');
+
+})->name('examples.sign-in');
+
+Route::get('/examples/sign-up', function () {
+    return view('pages.examples.sign-up');
+
+})->name('examples.sign-up');

@@ -30,7 +30,7 @@
         <link href="{{ URL::asset('bsb/css/style.css')}}" rel="stylesheet">
 
         <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-        <link href="{{ URL::asset('bsb/css/themes/all-themes.css')}}" rel="stylesheet" />
+        {{--<link href="{{ URL::asset('bsb/css/themes/all-themes.css')}}" rel="stylesheet" />--}}
     @show
 
     @yield('extra-css')
@@ -42,27 +42,8 @@
 
 <body class="theme-red">
 
-@include('layouts.partials.loader')
-
-<!-- Overlay For Sidebars -->
-<div class="overlay"></div>
-<!-- #END# Overlay For Sidebars -->
-
-@include('layouts.partials.search-bar')
-
-
-@include('layouts.partials.top-navbar')
-
-
-<section>
-    @include('layouts.partials.left-sidebar')
-
-    @include('layouts.partials.right-sidebar')
-</section>
-
-<section class="content">
     @yield('content')
-</section>
+
 
 @section('scripts')
     <!-- Jquery Core Js -->
@@ -71,24 +52,11 @@
     <!-- Bootstrap Core Js -->
     <script src="{{ URL::asset('bsb/plugins/bootstrap/js/bootstrap.js')}}"></script>
 
-    <!-- Select Plugin Js -->
-    <script src="{{ URL::asset('bsb/plugins/bootstrap-select/js/bootstrap-select.js')}}"></script>
-
-    <!-- Slimscroll Plugin Js -->
-    <script src="{{ URL::asset('bsb/plugins/jquery-slimscroll/jquery.slimscroll.js')}}"></script>
-
     <!-- Waves Effect Plugin Js -->
     <script src="{{ URL::asset('bsb/plugins/node-waves/waves.js')}}"></script>
 
 @show
 
-
-@section('bottom-scripts')
-    <!-- Custom Js -->
-    <script src="{{ URL::asset('bsb/js/admin.js')}}"></script>
-    <!-- Demo Js -->
-    <script src="{{ URL::asset('bsb/js/demo.js')}}"></script>
-@show
 @yield('extra-scripts')
 </body>
 

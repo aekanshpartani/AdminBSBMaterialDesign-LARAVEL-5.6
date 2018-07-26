@@ -256,22 +256,22 @@
                 </a>
                 <ul class="ml-menu">
                     <li>
-                        <a href="pages/examples/sign-in.html">Sign In</a>
+                        <a href="{{ route('examples.sign-in') }}">Sign In</a>
                     </li>
                     <li>
-                        <a href="pages/examples/sign-up.html">Sign Up</a>
+                        <a href="{{ route('examples.sign-up') }}">Sign Up</a>
                     </li>
                     <li>
-                        <a href="pages/examples/forgot-password.html">Forgot Password</a>
+                        <a href="{{ route('examples.forgot-password') }}">Forgot Password</a>
                     </li>
                     <li>
-                        <a href="pages/examples/blank.html">Blank Page</a>
+                        <a href="{{ route('examples.blank') }}">Blank Page</a>
                     </li>
                     <li>
-                        <a href="pages/examples/404.html">404 - Not Found</a>
+                        <a href="{{ route('examples.404') }}">404 - Not Found</a>
                     </li>
                     <li>
-                        <a href="pages/examples/500.html">500 - Server Error</a>
+                        <a href="{{ route('examples.500') }}">500 - Server Error</a>
                     </li>
                 </ul>
             </li>
